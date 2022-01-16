@@ -2,21 +2,21 @@
 Membuat perulangan dengan While
 """
 
-jumlah_buku_yang_harus_dibaca = 10
-total_jumlah_baca = 0
-jumlah_buku_yang_sudah_dibaca = 0
-print(f"Jumlah yang sudah dibaca {jumlah_buku_yang_sudah_dibaca} buah")
-while total_jumlah_baca < jumlah_buku_yang_harus_dibaca * 2 :
-    total_jumlah_baca = total_jumlah_baca + 1
-    if jumlah_buku_yang_sudah_dibaca == 9:
-        print(f"Buku ke {jumlah_buku_yang_sudah_dibaca} belum paham")
+book = 10
+read_count = 0
+readed_book = 0
+print(f"Jumlah yang sudah dibaca {readed_book} buah")
+while read_count < book * 2 :
+    read_count = read_count + 1
+    if readed_book == 9:
+        print(f"Buku ke {readed_book} belum paham")
 
     else:
-        jumlah_buku_yang_sudah_dibaca = jumlah_buku_yang_sudah_dibaca + 1
-        print(f"Membaca dan memahami buku ke {jumlah_buku_yang_sudah_dibaca} buah")
+        readed_book = readed_book + 1
+        print(f"Membaca dan memahami buku ke {readed_book} buah")
 
-print(f"Jumlah yang sudah dibaca dan dipahami {jumlah_buku_yang_sudah_dibaca} buah")
-print(f"Telah mebaca sebanyak {total_jumlah_baca} kali")
-print(f"Jumlah yang belum dibaca dan dipahami {jumlah_buku_yang_harus_dibaca - jumlah_buku_yang_sudah_dibaca} buah")
+print(f"Jumlah yang sudah dibaca dan dipahami {readed_book} buah")
+print(f"Telah mebaca sebanyak {read_count} kali")
+print(f"Jumlah yang belum dibaca dan dipahami {book - readed_book} buah")
 
 
