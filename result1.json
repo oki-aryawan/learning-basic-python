@@ -1,0 +1,10 @@
+{
+  "id": "001",
+  "name": "oki",
+  "email": "oki271002@protonmail.com",
+  "adress": {
+    "street": "Panji Anom",
+    "city": "Singaraja",
+    "post-code": "09912"
+  }
+}
